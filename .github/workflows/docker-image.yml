@@ -36,4 +36,4 @@ jobs:
           context: ./Test/
           file: /Test/Dockerfile 
           push: true  
-          tags: ghcr.io/javith-kapden/firewall-Test:latest
+          tags: ghcr.io/javith-kapden/firewall-test:latest

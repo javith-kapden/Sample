@@ -5,6 +5,8 @@ FROM python:3.9-slim
 # Set the working directory inside the container 
 WORKDIR /Test
 
+RUN pip install --no-cache-dir --upgrade pip==23.2.1 setuptools==65.5.1
+
 # Copy the requirements.txt file to the container
 COPY requirements.txt .
 

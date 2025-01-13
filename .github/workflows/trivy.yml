@@ -34,7 +34,7 @@ jobs:
     
     - name: Scan Image with Trivy and Export CycloneDX
       run: |
-        trivy image --format cyclonedx --output trivy-results.cyclonedx.json ghcr.io/kapden/firewall-demo:latest
+        trivy image --format cyclonedx --output trivy-results.cyclonedx.json ghcr.io/javith-kapden/firewall-test:latest
 
     # Upload the results as an artifact
     - name: Upload CycloneDX Results
